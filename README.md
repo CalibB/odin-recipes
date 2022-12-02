@@ -1,2 +1,3 @@
 # odin-recipes
-First assignment from The Odin Project Curriculum at the end of the foundations html section.
+
+This is the first assignment of [TOP(The Odin Project)](https://www.theodinproject.com) foundations course, more specifically from the end of the html section.
