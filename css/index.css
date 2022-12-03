@@ -1,0 +1,92 @@
+/* Reset */ 
+html {
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Utility Classes */
+
+body {
+    background-color: #FD841F;
+}
+
+.header {
+    text-align: center;
+    border-bottom-style: solid;
+    border-color: #3E6D9C;
+}
+
+.main {
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.main__inner {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.inner__left {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-right-style: solid;
+    border-color: #3E6D9C;
+}
+
+.inner__right {
+    padding-right: 2rem;
+    background-color: #E14D2A;
+    padding: 1rem;
+}
+
+.footer {
+    text-align: center;
+    margin: 1rem;
+}
+
+/* Special Styling */
+
+.header__title {
+    margin: 1rem;
+    font-size: 3rem;
+    color: #001253;
+}
+
+.inner__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #001253;
+}
+
+.inner__list {
+    list-style: lower-greek;
+}
+
+.list__item {
+    padding-bottom: 1rem;
+}
+
+.item__link {
+    text-decoration: wavy;
+    color: #001253;
+}
+
+.footer__text {
+    font-size: 1.5rem;
+    color: #001253;
+}
