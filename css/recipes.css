@@ -16,3 +16,89 @@ img {
     display: block;
 }
 
+/* Utility Classes */
+
+body {
+    background-color: #FD841F;
+    color: #001253;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.main {
+    min-height: 100vh;
+}
+
+.main__top,
+.main__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.top__left {
+    margin-right: 1rem;
+}
+
+.top__right {
+    margin-left: 1rem;
+    background-color: #E14D2A;
+    padding: 1rem;
+}
+
+.bottom__btn {
+    padding: .8rem;
+    margin: 1.1rem;
+    background-color: #FFDDD2;
+}
+
+.footer {
+    text-align: center;
+    margin: 1rem;
+}
+
+/* Special Styling */
+
+.header__title {
+    margin: 1rem;
+    font-size: 3rem;
+}
+
+.right__title,
+.bottom-left__title,
+.bottom-right__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+.left__img {
+    border-radius: 50%;
+}
+
+.bottom__left,
+.bottom__right {
+    flex: 1;
+}
+
+.bottom-left__midtitle {
+    margin: 1rem;
+}
+
+.footer__text {
+    font-size: 1.5rem;
+    color: #001253;
+}
+
+.btn__link {
+    text-decoration: none;
+    color: #E14D2A;
+}
+
+.btn_hover:hover {
+    background-color: #001253;
+}
